@@ -1,5 +1,4 @@
 
-
 = Introduction =
 
 RTl1.0 is a hard realtime RTOS microkernel that runs the entire Linux operating system as a fully preemptive process. It is one of the hard real-time variants of Linux, among several, that makes it possible to control robots, data acquisition systems, manufacturing plants, and other time-sensitive instruments and machines.
@@ -10,11 +9,11 @@ RTl1.0 is a hard realtime RTOS microkernel that runs the entire Linux operating 
 
 Here RTL1.0 is debain based real time linux which is only support x86 intel processors like intel atom for your idea you can change what ever you need
 
-get rtl1.0 file  and make bootable dvd or make bootable usb
+get rtl1.0.iso file  and make bootable dvd or make bootable usb
 
 command 
 
-sudo dd if=rtl1.o of=/dev/sdb 
+sudo dd if=rtl1.0.iso of=/dev/sdb 
 
 note:
 /dev/sdb your usb mass storage driver file it may vary depends on your external storage usage like /dev/sdbc or /dev/sdd etc 
