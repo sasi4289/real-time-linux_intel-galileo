@@ -24,7 +24,9 @@ cp /boot/config-$(uname -r) .config && make oldconfig
 
 
 sed -rie 's/echo "\+"/#echo "\+"/' scripts/setlocalversion
+
 make-kpkg clean
+
 CONCURRENCY_LEVEL=$(getconf _NPROCESSORS_ONLN) fakeroot make-kpkg --initrd --revision=0 kernel_image kernel_headers
 
 
